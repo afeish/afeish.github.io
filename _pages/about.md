@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: splash
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 <h2>About Me <img align="right" alt="Profile Hits" src="https://komarev.com/ghpvc/?username=neocxf&style=flat-square"></h2>

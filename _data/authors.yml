@@ -1,0 +1,14 @@
+Fei Chen:
+  name        : "neo.chen"
+  bio         : "The usefullness of a cup is its emptyness."
+  avatar      : "/assets/images/me.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:neocxf@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://afeish.github.io"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/neocxf"

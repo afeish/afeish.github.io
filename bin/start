@@ -1,0 +1,7 @@
+#!/bin/sh
+
+bundle exec jekyll serve --livereload --drafts --future --port 4061 --livereload_port 35729 "$@"
+
+
+set ALGOLIA_API_KEY=your_admin_api_key
+bundle exec jekyll algolia
