@@ -1,8 +1,6 @@
 main:
   - title: "Posts"
     url: /year-archive/
-  - title: "Month Posts"
-    url: /month-archive/
   - title: "Categories"
     url: /categories/
   - title: "Tags"

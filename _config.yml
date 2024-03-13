@@ -48,17 +48,17 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 breadcrumbs: true  # disabled by default
 breadcrumb_home_label : "Start"
@@ -129,7 +129,7 @@ defaults:
       path: ""
       type: category
     values:
-      comments: false
+      comments: true
 
 collections:
   portfolio:
@@ -165,3 +165,15 @@ compress_html:
   clippings: all
   ignore:
     envs: development  # disable compression in dev environment
+
+
+repository: afeish/afeish.github.io
+comments:
+  provider: "giscus"
+  giscus:
+    repo_id              : R_kgDOLenvDw
+    category_name        : Announcements # Full text name of the category
+    category_id          : DIC_kwDOLenvD84Cd8iw # Shown during giscus setup at https://giscus.app
+    discussion_term      : pathname # "pathname" (default), "url", "title", "og:title"
+    reactions_enabled    : 1 # '1' for enabled (default), '0' for disabled
+    theme                : preferred_color_scheme # "light" (default), "dark", "dark_dimmed", "transparent_dark", "preferred_color_scheme"
