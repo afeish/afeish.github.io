@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Longest Palindromic Subsequence"
+title: "Longest Path With Different Adjacent Characters"
 date: 2024-03-15 20:48:54 +0800
 categories: algo
 tags: dp leetcode dfs
