@@ -140,5 +140,3 @@ CREATE or replace AGGREGATE array_concat_agg(anycompatiblearray) (   SFUNC = arr
 
 ## 补充 notebook
 
-
-<!-- {% jupyter_notebook "/notebooks/pg.ipynb" %} -->
