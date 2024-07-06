@@ -27,7 +27,7 @@ from peewee import *
 from playhouse.postgres_ext import *
 import datetime
 
-db = PostgresqlDatabase('postgres', user='postgres.bsdxodcilisingudbizp', password='T40Aob5Ma4hbYCtr', host='aws-0-us-west-1.pooler.supabase.com', port=6543)
+db = PostgresqlDatabase('test', user='postgres', password='password', host='localhost', port=5432)
 
 import logging
 logger = logging.getLogger('peewee')
