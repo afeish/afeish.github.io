@@ -17,6 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# markdown: kramdown
 
 title: afei's coffee shop
 email: neocxf@gmail.com
@@ -32,13 +33,14 @@ author: Fei Chen
 
 # Build settings
 # theme: minima
-# theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-jupyter-notebook
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -68,6 +70,10 @@ search: true
 search_full_content: true
 lunr:
   search_within_pages: true
+
+jupyter_notebook:
+  content: body
+  prompt: true
 
 # search_provider: algolia
 # algolia:
