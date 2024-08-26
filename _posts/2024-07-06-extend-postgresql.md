@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "How to add customized AGGREGATE for postgresql"
-date: 2024-03-22 20:48:54 +0800
+date: 2024-07-06 20:48:54 +0800
 categories: tool
 tags: db postgresql
 collection: 2024

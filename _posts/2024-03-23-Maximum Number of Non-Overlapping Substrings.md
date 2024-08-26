@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Maximum Number of Non-Overlapping Substrings"
-date: 2024-03-22 20:48:54 +0800
+date: 2024-03-23 20:48:54 +0800
 categories: algo
 tags: sliding-window greedy
 collection: 2024

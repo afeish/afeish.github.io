@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "How to activate charles"
-date: 2024-03-22 20:48:54 +0800
+date: 2024-07-04 20:48:54 +0800
 categories: tool
 tags: charles proxy
 collection: 2024
