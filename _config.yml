@@ -165,6 +165,7 @@ jekyll-archives:
     tag: /tags/:name/
     year: '/archives/:year/'
     month: '/archives/:year-:month/'
+    day: '/:year/:month/:day/'
 
 
 compress_html:
