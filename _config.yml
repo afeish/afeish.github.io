@@ -41,6 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-jupyter-notebook
+  - jekyll-postcss
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -61,7 +62,10 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
 breadcrumbs: true  # disabled by default
 breadcrumb_home_label : "Start"
 breadcrumb_separator  : ">"
@@ -74,7 +78,8 @@ lunr:
 jupyter_notebook:
   content: body
   prompt: true
-
+postcss:
+  cache: false
 # search_provider: algolia
 # algolia:
 #   application_id: W8KRYVGEHX

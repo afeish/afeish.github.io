@@ -1,0 +1,9 @@
+<h2>Notes from {{ page.date | date: '%Y-%m-%d' }}</h2>
+<ul>
+    {% for post in page.posts %}
+    <li class="flex space-x-6 items-baseline">
+        <span class="text-sm">{{post.date | date: '%Y-%m-%d'}}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
