@@ -13,10 +13,12 @@ toc_sticky: true
 
 ---
 
+# postgresql dump and restore
+
 ## pg dump
 
 ```shell
-psql -d sewsmart -U sewsmart  -c "\copy (select * from daily_production_source where date(gen_time) >= '2025-08-01' and date(gen_time) < '2025-08-05') TO 'daily_production_source_2025_08.csv' WITH CSV HEADER"
+psql -d sewsmart -U sewsmart  -c "\copy (select * from daily_production_source where date(gen_time) >= '2025-08-01' and date(gen_time) <= '2025-08-05') TO 'daily_production_source_2025_08.csv' WITH CSV HEADER"
 ```
 
 ## pg restore
